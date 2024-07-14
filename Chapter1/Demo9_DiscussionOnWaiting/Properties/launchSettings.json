@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo_DiscussionOnWaiting": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo10_DiscussingWaitAnyAndWhenAny": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo8_ExperimentingDifferentBranches": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

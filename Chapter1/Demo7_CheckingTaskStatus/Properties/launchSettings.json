@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo7_CheckingTaskStatus": {
+      "commandName": "Project",
+      "hotReloadEnabled": true
+    }
+  }
+}
