@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exercise3.3_AutoResetEvent": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

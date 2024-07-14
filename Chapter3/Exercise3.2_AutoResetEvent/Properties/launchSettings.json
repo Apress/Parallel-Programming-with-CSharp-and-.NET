@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CaseStudy_AutoresetEvent2": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

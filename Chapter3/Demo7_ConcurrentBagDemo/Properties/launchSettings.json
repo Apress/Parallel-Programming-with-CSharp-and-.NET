@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConcurrentBagDemo": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

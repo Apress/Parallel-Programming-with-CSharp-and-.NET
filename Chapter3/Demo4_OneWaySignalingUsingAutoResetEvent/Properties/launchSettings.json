@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo_OneWaySignalingUsingAutoResetEvent": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}
