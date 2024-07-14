@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo_SemaphoreSlim": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

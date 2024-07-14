@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo_ManualResetEventSlim": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

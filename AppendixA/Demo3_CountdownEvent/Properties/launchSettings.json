@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo_CountdownEvent": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}
