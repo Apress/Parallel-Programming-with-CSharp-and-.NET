@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo6_HandlingExceptions": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

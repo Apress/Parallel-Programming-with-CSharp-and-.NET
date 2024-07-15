@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo7_ManagingCancellations": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}
