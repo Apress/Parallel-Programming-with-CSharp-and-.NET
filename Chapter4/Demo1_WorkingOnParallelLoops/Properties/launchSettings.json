@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo1_WorkingOnParallelLoops": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

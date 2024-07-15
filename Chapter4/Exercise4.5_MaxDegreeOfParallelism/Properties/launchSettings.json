@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exercise_MaxDegreeOfParallelism": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

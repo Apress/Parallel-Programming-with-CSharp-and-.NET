@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo4_ParallelLoopState_Modified": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

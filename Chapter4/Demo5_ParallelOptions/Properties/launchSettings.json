@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Demo_ParallelOptions": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exercise4.4_ParallelInvoke": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}
