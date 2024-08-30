@@ -12,7 +12,8 @@ var createEmp = Task.Factory.StartNew(
       {
           WriteLine($"Was the previous task completed? {task.IsCompletedSuccessfully}");
           WriteLine($"Current time:{DateTime.Now}");
-      }, TaskContinuationOptions.AttachedToParent
+      // }, TaskContinuationOptions.AttachedToParent
+      }
     );
 createEmp.Wait();
 
