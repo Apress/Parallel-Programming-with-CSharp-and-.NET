@@ -31,8 +31,7 @@ try
 {
     transferMoney.Wait();
     //transferMoney.Wait(token); // For cancellation, the error will be caught inside the catch block that handles OperationCanceledException
-    //await transferMoney; // Same observation( as in case of using Wait(token))
-    WriteLine(transferMoney.Result);
+    //await transferMoney; // Same observation( as in case of using Wait(token))    
 }
 catch (AggregateException ae)
 {
@@ -51,6 +50,11 @@ catch (OperationCanceledException oce)
 //{
 //    WriteLine($"Error:{e.GetType()}, {e.Message}");
 //}
+
+if (transferMoney.Status == TaskStatus.RanToCompletion)
+{
+    WriteLine(transferMoney.Result);
+}
 // The following line is introduced to discuss the question Q2.7 in the Q&A Session
 // Wait till the task finishes the execution
 //while (!transferMoney.IsCompleted) { }
