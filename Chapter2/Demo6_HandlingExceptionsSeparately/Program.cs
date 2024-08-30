@@ -31,7 +31,7 @@ static void InvokeTasks()
     }
     catch (AggregateException ae)
     {
-        // Handling only InsufficientMemoryException, others will propagated up to the hierarchy
+        // Handling only InsufficientMemoryException, others will be propagated up to the hierarchy
         ae.Handle(
            e =>
            {
