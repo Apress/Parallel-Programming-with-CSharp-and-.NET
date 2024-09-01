@@ -9,7 +9,7 @@ WriteLine("Discussing the restrictions of using the await keyword.");
 unsafe
 {
     // Some code, if any
-    //await Task.Delay(1000); // Error CS4004
+    // await Task.Delay(1000); // Error CS4004
 
     // Some code
     // Task.Delay(1000); // OK
@@ -43,8 +43,8 @@ finally
 class Foo
 {
     private readonly object _padLock = new();
-    //public async void SomeMethod()
-    //{
+    // public async void SomeMethod()
+    // {
     //    lock (_padLock)
     //    {
     //        // Do  the synchronous operations, if any
