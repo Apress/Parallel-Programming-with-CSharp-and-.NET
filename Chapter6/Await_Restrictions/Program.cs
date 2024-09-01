@@ -9,7 +9,7 @@ WriteLine("Discussing the restrictions of using the await keyword.");
 unsafe
 {
     // Some code, if any
-    //await Task.Delay(1000); // Error CS 4004
+    //await Task.Delay(1000); // Error CS4004
 
     // Some code
     // Task.Delay(1000); // OK
@@ -49,7 +49,7 @@ class Foo
     //    {
     //        // Do  the synchronous operations, if any
     //        // Trying to do an asynchronous operation now
-    //        //await Task.Delay(1000); //CS 1996        
+    //        // await Task.Delay(1000); //Error CS1996        
     //    }
     //}
     public async void SomeMethod()
@@ -78,8 +78,8 @@ class Sample
     public void SomeMethod()
     {
         // Some code, if any
-        //Task.Delay(1000);// OK
-        //await Task.Delay(1000); //Error CS4033
+        // Task.Delay(1000);// OK
+        // await Task.Delay(1000); //Error CS4033
         // Some other code, if any
     }
 }
